@@ -170,7 +170,7 @@ function geronimo() {
 		this.ghostFrightenedTimer = 240;
 		this.ghostMode = 0;			// 0 = Scatter, 1 = Chase
 		this.ghostModeTimer = 200;	// decrements each animationLoop execution
-		this.ghostSpeedNormal = (this.level > 4 ? 3 : 2);	// global default for ghost speed
+		this.ghostSpeedNormal = (this.level > 4 ? 3 : 10);	// global default for ghost speed
 		this.ghostSpeedDazzled = 2; // global default for ghost speed when dazzled
 
 		/* Game Functions */
